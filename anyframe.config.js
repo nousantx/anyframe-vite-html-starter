@@ -5,19 +5,15 @@ import { primary, zinc, red } from '@nousantx/color-library'
 
 const color = {
   primary,
+  red,
   neutral: zinc
 }
 
 export default {
   include: ['index.html', 'src/**/*.js'],
   property,
+  values: variables(color),
   classes: transformClasses({
-    center: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-    },
-    // custom utilities
     bg: {
       '--bg-opacity': '{1}% || 1',
       backgroundColor: 'rgb({0} / var(--bg-opacity)) || rgb(255 0 0)'
@@ -27,7 +23,6 @@ export default {
       color: 'rgb({0} / var(--text-opacity)) || rgb(255 0 0)'
     }
   }),
-  values: variables(color),
   theme: {
     apply: {
       SINGLE_RULE: [

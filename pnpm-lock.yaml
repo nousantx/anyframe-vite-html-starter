@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@anyframe/core':
         specifier: ^0.3.0
-        version: 0.3.0(@tenoxui/static@0.3.6)
+        version: 0.3.0(@tenoxui/static@0.4.2)
       '@nousantx/color-library':
         specifier: ^0.2.0
         version: 0.2.0
@@ -24,14 +24,14 @@ importers:
         specifier: ^1.4.5
         version: 1.4.5
       '@tenoxui/static':
-        specifier: ^0.3.6
-        version: 0.3.6
+        specifier: ^0.4.2
+        version: 0.4.2
       vite:
         specifier: ^6.1.0
         version: 6.1.1
       vite-plugin-anyframe:
         specifier: 0.2.1
-        version: 0.2.1(@anyframe/core@0.3.0(@tenoxui/static@0.3.6))(glob@11.0.1)
+        version: 0.2.1(@anyframe/core@0.3.0(@tenoxui/static@0.4.2))(glob@11.0.1)
 
 packages:
 
@@ -301,8 +301,8 @@ packages:
   '@tenoxui/property@1.4.5':
     resolution: {integrity: sha512-hAaQTiqPh785Yay7LtGXu4t5ThoH9PVZK1Xd5G6NLh6tO3fBgzLv2n0HIGNAiSVd3Fe4N9OwSMNtMQAKR4RFLw==}
 
-  '@tenoxui/static@0.3.6':
-    resolution: {integrity: sha512-4NkxjFRmsQZi5XwF8mwUIbNNQNOVpdvcstbv3GUq1vIFwpFp9BOheot5RQH4HZq4n6N6r5G3tUm0UM9r9SCsYQ==}
+  '@tenoxui/static@0.4.2':
+    resolution: {integrity: sha512-zDOHzcYx/uZ5DRpiJyETGRcYERCltVbPyqaKajF4Whs5H3N+VcMWMWCdmOo28gHuXD3omYBeyfn1H3Cn63hUfA==}
 
   '@tenoxui/types@0.1.2':
     resolution: {integrity: sha512-Vvmcj5qN9qqEnGjBx3S3fQD3yty2RdMG2qtssQywBdEbX9ast1nuHCe60ML4q3+40Dfz2LMRh4Ny7vzGta5xPA==}
@@ -515,9 +515,9 @@ packages:
 
 snapshots:
 
-  '@anyframe/core@0.3.0(@tenoxui/static@0.3.6)':
+  '@anyframe/core@0.3.0(@tenoxui/static@0.4.2)':
     dependencies:
-      '@tenoxui/static': 0.3.6
+      '@tenoxui/static': 0.4.2
       '@tenoxui/types': 0.1.2
 
   '@esbuild/aix-ppc64@0.24.2':
@@ -669,7 +669,7 @@ snapshots:
 
   '@tenoxui/property@1.4.5': {}
 
-  '@tenoxui/static@0.3.6':
+  '@tenoxui/static@0.4.2':
     dependencies:
       '@tenoxui/types': 0.1.2
 
@@ -846,9 +846,9 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  vite-plugin-anyframe@0.2.1(@anyframe/core@0.3.0(@tenoxui/static@0.3.6))(glob@11.0.1):
+  vite-plugin-anyframe@0.2.1(@anyframe/core@0.3.0(@tenoxui/static@0.4.2))(glob@11.0.1):
     dependencies:
-      '@anyframe/core': 0.3.0(@tenoxui/static@0.3.6)
+      '@anyframe/core': 0.3.0(@tenoxui/static@0.4.2)
       glob: 11.0.1
 
   vite@6.1.1:
